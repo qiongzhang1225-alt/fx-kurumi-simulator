@@ -1,0 +1,19 @@
+# Local dependencies, editor files, logs and credentials
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep development notes and old source backups on this computer.
+/docs/*
+!/docs/preview-current.jpg
+!/docs/preview-mystery-gallery.jpg

@@ -1,0 +1,12 @@
+{
+  "name": "fx-playground",
+  "version": "1.0.0",
+  "private": true,
+  "description": "零依赖、本地运行的外汇模拟交易小游戏",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "check": "node --check engine.js && node --check chart.js && node --check story-ui.js && node --check app.js && node --check server.cjs"
+  },
+  "engines": { "node": ">=20" }
+}
